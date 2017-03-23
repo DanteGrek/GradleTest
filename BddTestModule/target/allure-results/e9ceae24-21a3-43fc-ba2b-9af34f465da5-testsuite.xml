@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1490257249692" stop="1490257249768" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1490257249698" stop="1490257249758" status="passed">
+            <name>First scenario</name>
+            <title>First scenario</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1490257249701" stop="1490257249757" status="passed">
+                    <name>Given Print hello</name>
+                    <title>Given Print hello</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="First scenario"/>
+                <label name="feature" value="Test feature"/>
+                <label name="host" value="osolomin-monster"/>
+                <label name="thread" value="18643@osolomin-monster.Test worker(10)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

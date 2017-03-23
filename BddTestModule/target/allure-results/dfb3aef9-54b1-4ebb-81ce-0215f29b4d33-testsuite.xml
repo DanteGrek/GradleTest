@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1490185462313" stop="1490185462328" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test feature</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1490185462320" stop="1490185462328" status="canceled">
+            <name>First scenario</name>
+            <title>First scenario</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1490185462326" stop="1490185462327" status="canceled">
+                    <name>Print "Hello"</name>
+                    <title>Print "Hello"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="First scenario"/>
+                <label name="feature" value="Test feature"/>
+                <label name="host" value="osolomin-monster"/>
+                <label name="thread" value="29628@osolomin-monster.Test worker(10)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test feature"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
